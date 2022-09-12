@@ -3,3 +3,15 @@
 p {
     color: blue;
 }
+
+body {
+    background-color: cyan;
+}
+
+#firstPara {
+    color: orange;
+}
+
+#secondPara {
+    color: darkslateblue;
+}
