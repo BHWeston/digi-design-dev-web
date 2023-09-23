@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Implementing Bootstrap",
+  "steps": [
+    {
+      "file": "02 - Bootstrap/index.html",
+      "description": "Generate a front-end HTML file through using \"!\" enter. This will create the baseline template for your website:\r\n\r\n```html\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    \r\n</body>\r\n</html>\r\n```",
+      "line": 2
+    },
+    {
+      "file": "02 - Bootstrap/index.html",
+      "description": "These allow for the website to be come responsive to different devices (through use of metadata):\r\n```html\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n```",
+      "line": 7
+    },
+    {
+      "file": "02 - Bootstrap/index.html",
+      "description": "Changing the title will change the name of tab within the browser e.g. the below will change the tab name to \"My Website\":\r\n```html\r\n<title>My Website</title>\r\n```",
+      "line": 8
+    },
+    {
+      "file": "02 - Bootstrap/index.html",
+      "description": "To use Bootstrap, you must import in the CDNs on the Bootstrap website",
+      "line": 12
+    },
+    {
+      "file": "02 - Bootstrap/index.html",
+      "description": "```html \r\n<div class=\"container-fluid\">\r\n```\r\n^ This will take up the entire page width\r\n\r\n```html \r\n<div class=\"container\">\r\n```\r\n^This will take up the majority of the page length, however this will allocate some margins on the sides.\r\n\r\nThese tags should surround your rows and columns as part of the Bootstrap grid system",
+      "line": 15
+    },
+    {
+      "file": "02 - Bootstrap/index.html",
+      "description": "Bootstrap use a 12x grid layout system, so col-12 is the most you can have per row, having 4x col-3 classes will make up the 12 grid layout. If you go beyond this, there will be an overflow.",
+      "line": 24
+    }
+  ]
+}
